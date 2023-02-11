@@ -9,7 +9,7 @@ pin: true
 
 ### 1. GitHub clone
 
-#### bring data to my local environment 
+bring data to my local environment 
     
     git clone [repository]
 
@@ -20,23 +20,23 @@ pin: true
 
 ### 2. Add
 
-#### Add changes from the working directory to the staging area
+Add changes from the working directory to the staging area
 
 ```console
 git add --all
 ```
 
 
-### 3. 
-#### * Use to save changes until the next commit
-#### * Send changes to remote
+### 3. commmit
+* Use to save changes until the next commit
+* Send changes to remote
 ```console
 git commit -m [commit massage]
 ```
 
 ### 4. submit and publish
 
-#### submit and publish the changed data
+submit and publish the changed data
 ```console
 git push -u origin main
 ```
