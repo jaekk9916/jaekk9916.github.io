@@ -78,10 +78,10 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: 'https://github.com/jaekk9916/jaekk9916.github.io'
+img_cdn: '.'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/blob/main/_posts/images/open-book.png'
+avatar: '/_posts/images/open-book.png'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
