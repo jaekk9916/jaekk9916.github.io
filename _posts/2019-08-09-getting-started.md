@@ -28,13 +28,13 @@ git add --all
 ```
 
 
-##3. Send changes to remote
+## 3. Send changes to remote
 ### Use to save changes until the next commit
 ```console
 git commit -m [commit massage]
 ```
 
-##4. submit and publish
+## 4. submit and publish
 
 ### submit and publish the changed data
 ```console
