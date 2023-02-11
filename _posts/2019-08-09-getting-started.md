@@ -1,5 +1,5 @@
 ---
-title: This is Jaekyeong's blog
+title: GitHub, start!
 date: 2023-02-10 20:55:00 +0800
 categories: [Github]
 tags: [getting started]
@@ -27,14 +27,14 @@ git add --all
 ```
 
 
-### 3. commmit
+### 3. commit
 * Use to save changes until the next commit
 * Send changes to remote
 ```console
 git commit -m [commit massage]
 ```
 
-### 4. submit and publish
+### 4. push
 
 submit and publish the changed data
 ```console
