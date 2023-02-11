@@ -19,9 +19,9 @@ timezone: America/Toronto
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Joy                          # the main title
+title: Jaekyeong                          # the main title
 
-tagline: Hi there! I'm Joy   # it will display as the sub-title
+tagline: Hi there! I'm Jaekyeong   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
@@ -78,10 +78,10 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: 'https://chirpy-img.netlify.app'
+img_cdn: 'https://github.com/jaekk9916/jaekk9916.github.io'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/commons/avatar.jpg'
+avatar: '/images/open-book.png'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
