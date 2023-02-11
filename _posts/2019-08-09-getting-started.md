@@ -27,7 +27,7 @@ git add --all
 ```
 
 
-##3 3. 
+### 3. 
 #### * Use to save changes until the next commit
 #### * Send changes to remote
 ```console
