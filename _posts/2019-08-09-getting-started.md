@@ -1,5 +1,5 @@
 ---
-title: GitHub, start!
+title: GitHub, start! (1)
 date: 2023-02-10 20:55:00 +0800
 categories: [Github]
 tags: [getting started]
@@ -40,5 +40,8 @@ submit and publish the changed data
 ```console
 git push -u origin main
 ```
+
+
+
 
     
