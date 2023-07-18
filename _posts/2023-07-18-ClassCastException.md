@@ -1,0 +1,54 @@
+---
+tittle: ClassCastException
+date: 2023-07-18 11:38:19 -0500
+categories: [JAVA]
+tags: [JAVA, Exception, RuntimeError]
+---
+
+
+# ClassCastException
+
+Occurrence: When solving a Valid Anagram problem in Leetcode
+
+```java
+class Solution {
+    public boolean isAnagram(String s, String t) {
+        HashMap<Character, Integer> sMap = new HashMap<Character, Integer>();
+        HashMap<Character, Integer> tMap = new HashMap<Character, Integer>();
+        if(s.length() != t.length()) return false;
+        
+        char c = ' ';
+        Object val;
+        
+        for(int i = 0; i < s.length(); i++){
+            c = s.charAt(i);
+            val = sMap.get(c);
+            
+            if(val == null) sMap.put(c, 1);
+            else sMap.put(c, (int)val + 1);  // ERROR
+            
+            c = t.charAt(i);
+            val = tMap.get(c);
+            
+            if(val == null) tMap.put(c, 1);
+            else tMap.put(c, (int)val + 1);
+            
+        }
+        
+        for(int i = 0; i < s.length(); i++){ // ERROR
+            if(sMap.get(s.charAt(i)) != tMap.get(t.charAt(i))){
+                return false;
+            } 
+        }
+        return true;
+    }
+}
+
+```
+
+When the get method of a HashCode returns an Object and attempts to cast it to an INT, 
+a RuntimeError occurs and the count is not updated, resulting in incorrect results.
+So the result is also incorrect.
+
+Additionally,
+for the last part of the comparison, the <i>!=</i> operator brings an incorrect value, so it is better to use the <b><i><span style="color:blue">equals</span></i></b> method
