@@ -84,7 +84,7 @@ img_cdn: 'https://jaekk9916.github.io'
 # the avatar on sidebar, support local or CORS resources
 # avatar: "/commons/avatar.jpg"
 #avatar: "https://chirpy-img.netlify.app/commons/avatar.jpg"
-avatar: "https://github.com/jaekk9916/jaekk9916.github.io/blob/main/_posts/images/profile.png"
+avatar: "https://github.com/jaekk9916/jaekk9916.github.io/blob/main/_posts/images/profile.png?raw=true"
 
 # boolean type, the global switch for ToC in posts.
 toc: true
