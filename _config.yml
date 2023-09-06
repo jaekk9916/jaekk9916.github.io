@@ -23,7 +23,7 @@ title: Jaekyeong                          # the main title
 
 tagline: Hi there! I'm Jaekyeong   # it will display as the sub-title
 
-description: >-                        # used by seo meta and the atom feed
+description:                         # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
@@ -43,10 +43,10 @@ social:
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://github.com/jaekk9916       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-     - https://www.linkedin.com/in/jaekyeong-jang
+    - https://www.linkedin.com/in/jaekyeong-jang
 
 google_site_verification:               # fill in to your verification string
 
