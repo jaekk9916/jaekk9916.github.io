@@ -1,0 +1,7 @@
+[
+  { "file": "images/image_1_1000.jpg"},
+  { "file": "images/image_2_2000.jpg"},
+  { "file": "images/image_3_3000.jpg"},
+  { "file": "images/image_4_4000.jpg"},
+  { "file": "images/image_5_5000.jpg"}
+]
